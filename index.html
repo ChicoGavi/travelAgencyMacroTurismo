@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>MacroTurismo Agencia de Viajes </title>
+</head>
+<body>
+    <header>
+        <nav
+                class="flex py-2 px-4 md:px-8 text-main bg-tertiary min-h-[68px] relative z-20"
+                aria-label="Main navigation">
+            <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-4 w-full">
+                <div class="flex-1 flex">
+                    <a href="./index.html"
+                       class="min-w-9 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                        <span class="sr-only">MacroTurismo</span>
+                        <img src="./assets/logo/logoTurismo.png" alt="readymadeui logo" class="h-22 w-auto" />
+                    </a>
+                </div>
+
+                <div id="collapseMenu" tabindex="-1"
+                     class="hidden lg:block max-lg:bg-white max-lg:border-l max-lg:border-slate-300 max-lg:w-1/2 max-lg:fixed max-lg:top-0 max-lg:right-0 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto max-sm:w-full z-50 outline-none">
+                    <div
+                            class="py-2 px-4 flex justify-between items-center border-b border-slate-300 sticky top-0 bg-white lg:hidden max-lg:min-h-[68px]">
+                        <button type="button" aria-controls="collapseMenu" id="toggleClose"
+                                class="cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                            <span class="sr-only">Close main menu</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="size-4 fill-slate-900"
+                                 aria-hidden="true" viewBox="0 0 329.269 329">
+                                <path
+                                        d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                                        data-original="#000000" />
+                            </svg>
+                        </button>
+                    </div>
+
+                    <ul class="flex flex-col gap-8 font-semibold text-xl text-slate-900 lg:flex-row max-lg:p-6 ">
+                        <li>
+                            <a href="./index.html"
+                               class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
+                               aria-current="page">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Destinos</a>
+                        </li>
+                       
+                        <li>
+                            <a href="./aboutus.html"
+                               class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Quiénes somos</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                               class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="flex items-center gap-4 lg:ml-4">
+                    <a href="https://api.whatsapp.com/send/?phone=573136382988&text&type=phone_number&app_absent=0" target="_blank"
+                       class="py-2 px-4 text-xl rounded-md font-semibold cursor-pointer text-white border border-main bg-main hover:bg-main transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Reserva
+                    </a>
+
+                    <button type="button" aria-controls="collapseMenu" aria-expanded="false" aria-haspopup="true" id="toggleOpen"
+                            class="cursor-pointer lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="size-7 fill-slate-900" aria-hidden="true" viewBox="0 0 20 20"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                                  clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class=" flex items-center bg-[url('./assets/heroImage.jpg')]  bg-cover bg-center bg-no-repeat h-screen w-full" >
+            
+            <div class=" flex flex-col gap-10 items-center py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12   ">
+
+                <a  class=" inline-flex   justify-center  py-1 px-1  mb-7 text-sm text-gray-700 bg-gray-100 rounded-2xl dark:bg-gray-800 dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700" role="alert">
+                    <span class="text-md bg-primary-600  rounded-full text-white px-4  py-1.5 font-medium">Vive La Naturaleza</span>
+                </a>
+                <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl ">Descubre la Magia de Colombia</h1>
+                <p class="mb-8 text-lg  text-gray-900 font-bold lg:text-xl sm:px-16 xl:px-48 ">
+                    Viajes cuidadosamente diseñados a través de imponentes palmeras de cera, ciudades costeras históricas
+                    y parajes naturales vírgenes. Experimente los viajes con un toque de sofisticación.
+                </p>
+                <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
+                    <a href="#" class="inline-flex justify-center items-center py-3 px-5   text-center text-white rounded-lg border border-green-500  bg-main hover:bg-green-500  font-bold ">
+                        Explorar Destinos
+                    </a>
+                </div>
+                
+            </div>
+
+           
+        </section>
+
+        <section class="max-w-6xl mx-auto px-4">
+            <div class="relative -mt-16 z-10 bg-white rounded-3xl shadow-xl p-8">
+                <div class="flex  gap-6 items-end">
+                    <div class="w-full" >
+                        <label class="block text-lg font-bold text-gray-500 uppercase mb-2">Destination</label>
+                        <div class="relative">
+                            <input id="location" type="text" placeholder="A donde vas?" class="w-full pl-10 pr-4 py-3 bg-stone-100 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-600">
+                        </div>
+                    </div>
+                    
+                    <button id="btn" class="bg-green-800 cursor-pointer hover:bg-green-900 text-white font-semibold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-colors">
+                        Search
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container mx-auto p-6 mt-22">
+
+                <div id="cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+
+
+
+
+<script src="js"></script>
+</body>
+</html>

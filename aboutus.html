@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title> MacroTurismo Agencia de Viajes </title>
+</head>
+<body>
+<header>
+    <nav
+            class="flex py-2 px-4 md:px-8 text-main bg-tertiary min-h-[68px] relative z-20"
+            aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-4 w-full">
+            <div class="flex-1 flex">
+                <a href="./index.html"
+                   class="min-w-9 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                    <span class="sr-only">MacroTurismo</span>
+                    <img src="./assets/logo/logoTurismo.png" alt="readymadeui logo" class="h-22 w-auto" />
+                </a>
+            </div>
+
+            <div id="collapseMenu" tabindex="-1"
+                 class="hidden lg:block max-lg:bg-white max-lg:border-l max-lg:border-slate-300 max-lg:w-1/2 max-lg:fixed max-lg:top-0 max-lg:right-0 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto max-sm:w-full z-50 outline-none">
+                <div
+                        class="py-2 px-4 flex justify-between items-center border-b border-slate-300 sticky top-0 bg-white lg:hidden max-lg:min-h-[68px]">
+                    <button type="button" aria-controls="collapseMenu" id="toggleClose"
+                            class="cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                        <span class="sr-only">Close main menu</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="size-4 fill-slate-900"
+                             aria-hidden="true" viewBox="0 0 329.269 329">
+                            <path
+                                    d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                                    data-original="#000000" />
+                        </svg>
+                    </button>
+                </div>
+
+                <ul class="flex flex-col gap-8 font-semibold text-xl text-slate-900 lg:flex-row max-lg:p-6 ">
+                    <li>
+                        <a href="./index.html"
+                           class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
+                           aria-current="page">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Destinos</a>
+                    </li>
+
+                    <li>
+                        <a href="./aboutus.html"
+                           class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Quiénes somos</a>
+                    </li>
+                    <li>
+                        <a href="#"
+                           class="hover:text-main focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">Contacto</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="flex items-center gap-4 lg:ml-4">
+                <a href="https://api.whatsapp.com/send/?phone=573136382988&text&type=phone_number&app_absent=0" target="_blank"
+                   class="py-2 px-4 text-xl rounded-md font-semibold cursor-pointer text-white border border-main bg-main hover:bg-main transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Reserva
+                </a>
+
+                <button type="button" aria-controls="collapseMenu" aria-expanded="false" aria-haspopup="true" id="toggleOpen"
+                        class="cursor-pointer lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="size-7 fill-slate-900" aria-hidden="true" viewBox="0 0 20 20"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                              clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+
+<div class=" rounded-lg h-auto ">
+</div>
+
+<main class=" h-96">
+    <section class="py-20 px-4 md:px-12 lg:px-24">
+        <div class="max-w-7xl mx-auto">
+            <!-- Section Header -->
+            <div class="text-center mb-16 px-4">
+                <p class="text-base font-medium text-gray-500 mb-3">Get In Touch</p>
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-6">Contact Us</h2>
+                <p class="text-lg text-gray-600 max-w-4xl mx-auto leading-relaxed">
+                    Have questions or ready to start your project? We'd love to hear from you. Reach out and let's create something amazing together.
+                </p>
+            </div>
+
+            <!-- Contact Content -->
+            <div class="bg-white p-12 rounded-none shadow-sm">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                    <!-- Contact Information -->
+                    <div>
+                        <h3 class="text-2xl font-semibold text-black mb-8">Get in touch</h3>
+
+                        <!-- Contact Info Items -->
+                        <div class="space-y-6">
+                            <!-- Phone -->
+                            <div class="flex items-start">
+                                <div class="bg-black p-3 rounded-none mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-black mb-1">Phone</h4>
+                                    <p class="text-lg text-gray-600">+1 (555) 123-4567</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start">
+                                <div class="bg-black p-3 rounded-none mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-black mb-1">Email</h4>
+                                    <p class="text-lg text-gray-600">hello@company.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Address -->
+                            <div class="flex items-start">
+                                <div class="bg-black p-3 rounded-none mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-black mb-1">Office</h4>
+                                    <p class="text-lg text-gray-600">123 Business Ave, Suite 100<br>New York, NY 10001</p>
+                                </div>
+                            </div>
+
+                            <!-- Hours -->
+                            <div class="flex items-start">
+                                <div class="bg-black p-3 rounded-none mr-4">
+                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold text-black mb-1">Business Hours</h4>
+                                    <p class="text-lg text-gray-600">Mon - Fri: 9:00 AM - 6:00 PM<br>Sat: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div>
+                        <h3 class="text-2xl font-semibold text-black mb-8">Send us a message</h3>
+
+                        <form class="space-y-6">
+                            <!-- Name & Email -->
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                <div>
+                                    <label for="name" class="block text-lg font-medium text-black mb-2">Full Name</label>
+                                    <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-none focus:outline-none focus:border-black text-lg" placeholder="Your name">
+                                </div>
+                                <div>
+                                    <label for="email" class="block text-lg font-medium text-black mb-2">Email Address</label>
+                                    <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-none focus:outline-none focus:border-black text-lg" placeholder="your@email.com">
+                                </div>
+                            </div>
+
+                            <!-- Subject -->
+                            <div>
+                                <label for="subject" class="block text-lg font-medium text-black mb-2">Subject</label>
+                                <input type="text" id="subject" class="w-full px-4 py-3 border border-gray-300 rounded-none focus:outline-none focus:border-black text-lg" placeholder="What is this regarding?">
+                            </div>
+
+                            <!-- Message -->
+                            <div>
+                                <label for="message" class="block text-lg font-medium text-black mb-2">Message</label>
+                                <textarea id="message" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-none focus:outline-none focus:border-black text-lg" placeholder="Tell us about your project..."></textarea>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="w-full px-8 py-4 bg-black text-white text-lg font-medium hover:bg-gray-800 transition-colors">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Vivero Maracay Pereira&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://embed-googlemap.com">embed google map</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+            
+        </div>
+
+    </section>
+    
+</main>
+
+
+<script src="js"></script>
+</body>
+</html>
